@@ -1,0 +1,42 @@
+%We have studied some papers for making a solution to our problem by combining them all possible papers.
+%In the paper “Self-improving Chatbots based on Reinforcement Learning” \cite{rl-chatbot} we have found how to create a self-improving question and answering system.
+%They have used Deep Q-Network (DQN) agent as the policy learning system with epsilon greedy exploration.
+%It is implemented in a way that it can answer out-of-scope questions with a fallback answering system.
+%If the answer is matched with 30\% or above confidence level then the NLU engine returns the response with the confidence, otherwise, it returns a fallback answer.
+%The authors propose a setup where the chatbot acts as an RL agent, observing the state of the conversation, taking actions, and receiving rewards or penalties based on user satisfaction.
+%The dialogue policy is learned by maximizing the expected cumulative reward over time.
+%Designing suitable reward functions is crucial for effective RL. The paper suggests using user satisfaction as the reward signal, which can be derived from explicit ratings or implicit feedback.
+%The authors discuss various reward-shaping techniques to enhance the learning process and encourage desirable behavior in the chatbot.
+%
+%
+%In the paper titled "Large-Scale Personal Assistant Technology Deployment: The Siri Experience" \cite{siri-experience} we have found some of the very essential information about developing a personal assistant, the challenges they have faced, and how they have overcome them.
+%In recent years, smartphones and other mobile devices, such as electronic tablets and more generally a wide variety of hand-held media appliances, have brought about an unprecedented level of ubiquity in computing and communications.
+%At the same time, voice-driven human-computer interaction has benefited from steady improvements in the underlying speech technologies (largely from a greater quantity of labeled speech data leading to better models), as well as the relative decrease in the cost of computing power necessary to implement comparatively more sophisticated solutions.
+%This has sparked interest in a more pervasive spoken language interface, in its most inclusive definition encompassing speech recognition, speech synthesis, natural language understanding, and dialog management.
+%Multiple voice-driven initiatives have now reached commercial deployment, among others Apple’s Siri \cite{siri}, Google’s Voice Actions \cite{google-mobile} and Google Now \cite{google-now}, Microsoft’s Bing Voice Search \cite{microsoft-tellme}, and Nuance’s Dragon Go! \cite{nuance-dragon} and Nina \cite{nuance-nina}, and many startup efforts like Speaktoit \cite{speaktoit}.
+%The well-publicized release of Siri in Apple’s iPhone 4S, in particular, may have heralded an irreversible shift toward the “intelligent personal assistant” paradigm: just say what you want, and the system will automatically figure out what the best course of action is.
+Virtual personal assistant (VPA) has been researched and utilized by researchers over the decades.
+In our literature work, we focused on latest works including research, production related information which are published on reliable sources.
+Like, IEEE Digital Library, ACM Digital Library, Springer etc.
+We have found a couple of research directly related to our works and there are some partially related works.
+We have separated discussion of the researches in separate sections.
+
+\subsection{Virtual Personal Assistant}\label{subsec:virtual-personal-assistant}
+Adheetee: A Comprehensive Bangla Virtual Assistant is developed based on Natural Language Understanding (NLU) using Deep Learning (DL) models such as Recurrent Neural Network (RNN) for Bangla Language \cite{adheetee}.
+They have collect and created their own corpus then trained the model on that dataset.
+
+In the paper "Large-Scale Personal Assistant Technology Deployment, specifically in the context of the Siri Experience" \cite{siri-experience}, the researchers provided a lot of information about development and deployment a production grade Siri, Siri is a virtual personal assistant developed by Apple.
+They have showed how they have implemented architecture, deployment architecture and how they have improved performance Natural Language Processing (NLP) and Natural Language Understanding (NLU) capabilities.
+
+\subsection{Speech Recognition}\label{subsec:speech-recognition}
+The paper State of Art Research in Bengali Speech Recognition \cite{speech-recog-bengali} presents a comprehensive methodology for advancing the field of Bengali speech recognition.
+They have pointed out about challenges specific to Bengali speech recognition.
+The researchers proposed a hybrid approach of that combines acoustic modeling, language modeling, and lexical modeling using Convolutional Neural Network (CNN), Recurrent Neural Network (RNN) to improve accuracy and performances.
+
+\subsection{Chatbot}\label{subsec:chatbot}
+The paper "Doly: Bengali Chatbot for Bengali Education" \cite{doly} presents the methodology employed to develop an intelligent chatbot named Doly, designed specifically for Bengali language education.
+The methodology emphasizes the importance of continually updating and expanding Doly's knowledge base to keep up with evolving educational content and trends.
+
+In the paper “Self-improving Chatbots based on Reinforcement Learning” \cite{rl-chatbot} we have found how to create a self-improving question and answering system.
+They have used Deep Q-Network (DQN) agent as the policy learning system with epsilon greedy exploration.
+The authors propose a setup where the chatbot acts as an RL agent, observing the state of the conversation, taking actions, and receiving rewards or penalties based on user satisfaction.
