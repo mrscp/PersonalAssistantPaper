@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.13)  14 JUL 2023 20:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.13)  14 JUL 2023 22:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -620,9 +620,6 @@ Before submitting the final camera ready copy, remember to:
 
 [3 <./images//Deployment.jpg>]
 (/Users/sadid/PycharmProjects/PersonalAssistantPaper/out/main.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 287767E6434DD3B577A841ABB4525676;803.
  ) 
