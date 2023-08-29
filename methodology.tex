@@ -4,10 +4,10 @@ The main challenge lies in converting these analog signals into text format, whi
 A Chatbot is a computer program or an artificial intelligence which conducts a conversation via auditory or textual methods\cite{chatbot}.
 Text-to-Speech (TTS) is a technology that converts written text into spoken words\cite{text-to-speech}.
 
-Figure\ref{fig:methodology} shows a user provides a voice input, then our system processes the voice data and provides text data from Speech-to-Text model.
-Speech to Text returns text data for the voice data, this data is the input of the chatbot, chatbot takes the decision, like what to do, what to reply, or what to ask, these kind of questions.
+Figure \ref{fig:methodology} shows a user provides a voice input, then our system processes the voice data and provides text data from Speech-to-Text (BanglaSTT)\cite{bangla-stt} model.
+Speech to Text returns text data for the voice data, this data is the input of the chatbot (BanglaBERT)\cite{bangla-bert}, chatbot takes the decision, like what to do, what to reply, or what to ask, these kind of questions.
 If the response is to take an action based on the output of the chatbot, then it takes the action, like call someone, interaction with IoT devices etc.
-Also, provide the voice feedback to the user using Text to Speech.
+Also, provide the voice feedback to the user using Text to Speech (BanglaTTS)\cite{bangla-tts}.
 There are plenty of solutions for other top languages, but we have developed for Bengali language.
 
 \begin{figure}
@@ -16,7 +16,7 @@ There are plenty of solutions for other top languages, but we have developed for
     \caption{Flowchart of the system}\label{fig:methodology}
 \end{figure}
 
-Our deployment environment (Figure\ref{fig:deployment}) is in the cloud, using API access a mobile/computer app can interact with the system.
+Our deployment environment (Figure \ref{fig:deployment}) is in the cloud, using API access a mobile/computer app can interact with the system.
 A basic model will be downloaded into the local device as well to make the communication with reduced latency.
 When a user provides some basic voice command, the local model will be sufficient to reply or interact with that.
 But when a complex or unknown reply is required, then it will communicate with the cloud version of the model.

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.13)  24 AUG 2023 12:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.13)  29 AUG 2023 23:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -397,24 +397,24 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 (/Users/sadid/PycharmProjects/PersonalAssistantPaper/out/main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
 
 -- Lines per column: 56 (approximate, difference = 9.15898pt).
 *geometry* driver: auto-detecting
@@ -482,7 +482,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package color Info: Driver file: pdftex.def on input line 149.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx))
-Package hyperref Info: Link coloring ON on input line 34.
+Package hyperref Info: Link coloring ON on input line 37.
 
 (/Users/sadid/PycharmProjects/PersonalAssistantPaper/out/main.out)
 (/Users/sadid/PycharmProjects/PersonalAssistantPaper/out/main.out)
@@ -499,28 +499,25 @@ local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 ]) (./review.tex)
 (./methodology.tex
-<./images//Methodology-diagram.jpg, id=83, 461.725pt x 1105.12875pt>
+<./images//Methodology-diagram.jpg, id=86, 461.725pt x 1105.12875pt>
 File: ./images//Methodology-diagram.jpg Graphic file (type jpg)
 <use ./images//Methodology-diagram.jpg>
 Package pdftex.def Info: ./images//Methodology-diagram.jpg  used on input line 
 15.
 (pdftex.def)             Requested size: 177.42868pt x 424.6749pt.
-<./images//Deployment.jpg, id=85, 555.07375pt x 964.60374pt>
+<./images//Deployment.jpg, id=88, 555.07375pt x 964.60374pt>
 File: ./images//Deployment.jpg Graphic file (type jpg)
 <use ./images//Deployment.jpg>
 Package pdftex.def Info: ./images//Deployment.jpg  used on input line 28.
 (pdftex.def)             Requested size: 177.42868pt x 308.32626pt.
 ) (./results.tex [2]
-Underfull \vbox (badness 1584) has occurred while \output is active []
-
-<./images//result.png, id=99, 345.29pt x 679.53876pt>
+<./images//result.png, id=105, 345.29pt x 679.53876pt>
 File: ./images//result.png Graphic file (type png)
 <use ./images//result.png>
 Package pdftex.def Info: ./images//result.png  used on input line 16.
 (pdftex.def)             Requested size: 208.48242pt x 410.2979pt.
-)
-(./conclusion.tex [3 <./images//Methodology-diagram.jpg> <./images//Deployment.
-jpg>]) (./references.tex
+) (./conclusion.tex [3 <./images//Methodology-diagram.jpg> <./images//Deploymen
+t.jpg>]) (./references.tex
 Underfull \hbox (badness 1383) in paragraph at lines 12--13
 []\OT1/ptm/m/n/8 Google Mo-bile, http://www.google.com/mobile/voice- ac-
  []
@@ -615,7 +612,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--22
 \OT1/ptm/m/n/8 national-survey-persons-disabilities-nspd-2021-december-
  []
 
-)
+[4 <./images//result.png>])
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -627,31 +624,29 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[4 <./images//result.png>]
-(/Users/sadid/PycharmProjects/PersonalAssistantPaper/out/main.aux)
+[5
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+] (/Users/sadid/PycharmProjects/PersonalAssistantPaper/out/main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 3B88013B8024AB18B37C939FFAC56858;969.
  ) 
 Here is how much of TeX's memory you used:
- 11294 strings out of 476025
- 185178 string characters out of 5790017
- 1870388 words of memory out of 5000000
- 31566 multiletter control sequences out of 15000+600000
+ 11301 strings out of 476025
+ 185267 string characters out of 5790017
+ 1871388 words of memory out of 5000000
+ 31569 multiletter control sequences out of 15000+600000
  541654 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,8n,76p,412b,451s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,8n,76p,412b,583s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/lo
 cal/texlive/2023/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texli
 ve/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/te
 xmf-dist/fonts/type1/urw/times/utmri8a.pfb>
 Output written on /Users/sadid/PycharmProjects/PersonalAssistantPaper/out/main.
-pdf (4 pages, 229583 bytes).
+pdf (5 pages, 231442 bytes).
 PDF statistics:
- 146 PDF objects out of 1000 (max. 8388607)
- 126 compressed objects within 2 object streams
- 37 named destinations out of 1000 (max. 500000)
+ 156 PDF objects out of 1000 (max. 8388607)
+ 135 compressed objects within 2 object streams
+ 41 named destinations out of 1000 (max. 500000)
  88 words of extra memory for PDF output out of 10000 (max. 10000000)
 
